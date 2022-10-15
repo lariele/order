@@ -1,6 +1,6 @@
 #   Lariele Orders TALL
 
-### Order Managing Package
+### Manage Orders with Laravel Livewire component builded with TALL
 
 [//]: # (##  Installation)
 
