@@ -1,1 +1,12 @@
-0.0.1
+#   Lariele Orders TALL
+
+### Order Managing Package
+
+[//]: # (##  Installation)
+
+[//]: # ()
+[//]: # (```)
+
+[//]: # (composer require lariele/orders)
+
+[//]: # (```)
