@@ -12,6 +12,11 @@ class OrderDetail extends Component
 {
     public Order $order;
 
+    /**
+     *
+     *
+     * @var array|string[]
+     */
     protected array $rules = [
         'order.customer_name' => 'max:32',
         'order.customer_address' => 'string',
@@ -25,7 +30,12 @@ class OrderDetail extends Component
 
     }
 
-    public function save()
+    /**
+     * Validate and Update Order data
+     *
+     * @return void
+     */
+    public function save(): void
     {
         $this->validate();
         $this->order->save();

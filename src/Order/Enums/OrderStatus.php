@@ -13,16 +13,6 @@ use Spatie\Enum\Enum;
  */
 class OrderStatus extends Enum
 {
-//    protected static function values(): array
-//    {
-//        return [
-//            'new' => 1,
-//            'processing' => 2,
-//            'completed' => 3,
-//            'canceled' => 9,
-//        ];
-//    }
-
     protected static function labels(): array
     {
         return [

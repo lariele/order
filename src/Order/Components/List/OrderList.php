@@ -12,7 +12,7 @@ use Livewire\Component;
 
 class OrderList extends Component
 {
-    protected $listeners = ['refreshList' => '$refresh'];
+    protected array $listeners = ['refreshList' => '$refresh'];
 
     protected OrderListService $service;
 
@@ -42,11 +42,12 @@ class OrderList extends Component
         $this->getOrders();
     }
 
-    public function selectedAsReaded() {
-        Log::debug('mark as readed');
-    }
-
-    public function loadMore()
+    /**
+     * Autoload next orders
+     *
+     * @return void
+     */
+    public function loadMore(): void
     {
         $countStart = $this->orders ? count($this->orders) : null;
 
@@ -58,7 +59,12 @@ class OrderList extends Component
         }
     }
 
-    public function getOrders()
+    /**
+     * Get filtered Orders
+     *
+     * @return void
+     */
+    public function getOrders(): void
     {
         $this->orders = $this->service->getOrderListQuery($this->filter)->limit($this->perPage)->get();
     }
