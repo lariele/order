@@ -12,7 +12,7 @@ use Livewire\Component;
 
 class OrderList extends Component
 {
-    protected array $listeners = ['refreshList' => '$refresh'];
+    protected $listeners = ['refreshList' => '$refresh'];
 
     protected OrderListService $service;
 

@@ -1,5 +1,5 @@
 {
-    "name": "lariele/orders",
+    "name": "lariele/order",
     "description": "Manage Orders with Laravel Livewire components builded with TALL",
     "keywords": ["lariele", "orders", "laravel", "livewire"],
     "license": "MIT",
