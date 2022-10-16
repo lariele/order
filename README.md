@@ -10,7 +10,7 @@
 ## Installation
 
 ```
-composer require lariele/orders
+composer require lariele/order
 ```
 
 ## Demo
