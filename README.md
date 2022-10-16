@@ -2,11 +2,11 @@
 
 ### Manage Orders with Laravel Livewire component builded with TALL
 
-[//]: # (##  Installation)
+##  Installation
 
-[//]: # ()
-[//]: # (```)
+```
+composer require lariele/orders
+```
 
-[//]: # (composer require lariele/orders)
-
-[//]: # (```)
+## Demo
+http://lapierre.moon8movie.com/orders
