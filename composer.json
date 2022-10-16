@@ -1,7 +1,7 @@
 {
     "name": "lariele/order",
     "description": "Manage Orders with Laravel Livewire component builded with TALL",
-    "keywords": ["lariele", "laravel", "livewire", "orders"],
+    "keywords": ["lariele", "orders", "laravel", "livewire"],
     "license": "MIT",
     "authors": [
         {
