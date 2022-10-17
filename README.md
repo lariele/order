@@ -13,27 +13,38 @@
 composer require lariele/order
 ```
 
-## Vendor views and database publish
-#### Publish DB migrations & seeders
-```
-php artisan vendor:publish --provider="Lariele\Order\OrderServiceProvider" --tag=database
-```
-#### Publish views to edit blade views
-```
-php artisan vendor:publish --provider="Lariele\Order\OrderServiceProvider" --tag=views
-```
-
 
 ## Database
 #### Run Database migrations
 ```
 php artisan migrate
 ```
-
-#### Seed Orders
+## Seed Database
+#### Publish DB migrations & seeders
+```
+php artisan vendor:publish --provider="Lariele\Order\OrderServiceProvider" --tag=database
+```
+#### Feed DB with Orders
 ```
 php artisan db:seed OrderSeeder
 ```
 
+## Development
+#### Publish views
+```
+php artisan vendor:publish --provider="Lariele\Order\OrderServiceProvider" --tag=views
+```
+
+#### Dev
+```
+npm run dev
+```
+
+#### Build
+```
+npm run build
+```
+
+
 ## Preview
-#### Check online [demo](http://lapierre.moon8movie.com/orders)
+#### Check online [demo](http://lariele.moon8movie.com/orders)
